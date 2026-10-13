@@ -1,0 +1,12 @@
+title: CK-DOS Support
+description: Support, help, and privacy information for CK-DOS.
+url: "https://cklukas.github.io"
+baseurl: "/ckdos-support"
+theme: minima
+markdown: kramdown
+header_pages:
+  - index.md
+  - privacy.md
+exclude:
+  - README.md
+  - PUBLICATION.md
