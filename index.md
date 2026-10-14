@@ -15,7 +15,7 @@ conventional-memory overhead. It includes DOS commands and tools built from
 the MIT-licensed MS-DOS 4.0 sources.
 
 A demonstrated 640 KB conventional-memory configuration leaves **about 616 KB**
-as the largest executable program block. Reducing graphics features can free
+as the largest executable program block. With simpler graphics profiles, enabling **Reclaim video memory** can free
 additional memory: a demonstrated CGA configuration provides **736 KB** of
 conventional memory and **about 712 KB** as the largest executable block.
 These are examples; available memory depends on graphics settings, loaded
@@ -27,6 +27,36 @@ installation of compatible versions of **Windows, OS/2 and other PC operating
 systems**. Supply your own application files, operating-system media and any
 required licenses. Compatibility depends on the particular version, software
 and hardware configuration.
+
+## Graphics, 3D and sound
+
+Choose **Text only, Hercules, CGA, MCGA, VGA, SVGA (VESA), Tseng ET4000,
+S3 Trio64, S3 86C928, Tseng ET4000/W32p, ATI Mach32 or Cirrus Logic GD5428**.
+An optional **IBM 8514/A** companion accelerator is available alongside VGA.
+These display profiles and 8514/A are included in Free.
+
+First-generation **3dfx Voodoo Graphics** provides optional 3D support for
+compatible software and guest drivers. It requires a Pentium CPU profile,
+so it is available with Pro or the active Pro trial in the App Store edition.
+It uses the existing Pro upgrade. Driver and game compatibility must be tested.
+
+Free sound includes **PC speaker, AdLib OPL2/OPL3 FM, Sound Blaster 2,
+Sound Blaster Pro 2 and Sound Blaster 16** profiles. “Pro 2” is a sound-card
+name; basic digital/FM sound does not require the CK-DOS Pro purchase.
+**Pro adds General MIDI through MPU-401**, using the bundled GM sound bank
+or the macOS system synthesizer, including MIDI on the Sound Blaster 16 profile.
+
+## Networking included in Free
+
+The optional **ISA NE2000** adapter supports an in-app Ethernet segment between
+sessions in the same application process, or **outbound IPv4 Internet/LAN
+access through NAT**. Install the appropriate guest driver and network software.
+Networking is disabled in new profiles and changes require a session restart.
+
+The optional **web compatibility proxy** helps compatible legacy browsers
+connect to HTTPS sites. It does not add modern web-page rendering capabilities
+to an old browser. NAT provides outgoing connections; it does not expose an
+inbound server or bridge the guest directly onto your physical LAN.
 
 ## Support
 
