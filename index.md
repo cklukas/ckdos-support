@@ -5,14 +5,16 @@ title: CK-DOS Support
 
 # CK-DOS
 
-Explore retro PC software in a native Mac workspace, with an optional built-in
-DOS environment and configurable PC hardware emulation.
+CK-DOS 1.0.0 lets you explore retro PC software in a native Mac workspace,
+with an optional built-in DOS environment and configurable PC hardware emulation.
 
 ## The CK-DOS 4.0 kernel and other operating systems
 
 The custom **CK-DOS 4.0 kernel** is designed for fast execution and low
 conventional-memory overhead. It includes DOS commands and tools built from
-the MIT-licensed MS-DOS 4.0 sources.
+the MIT-licensed MS-DOS 4.0 sources. When using this kernel, **mount Mac folders
+as DOS directories or drives** to exchange files directly between Mac
+applications and DOS programs. Choose the folders through the native file picker.
 
 A demonstrated 640 KB conventional-memory configuration leaves **about 616 KB**
 as the largest executable program block. With simpler graphics profiles, enabling **Reclaim video memory** can free
