@@ -5,8 +5,28 @@ title: CK-DOS Support
 
 # CK-DOS
 
-Run and preserve your DOS applications in a native Mac workspace. Supply your
-own application files and any operating-system images.
+Explore retro PC software in a native Mac workspace, with an optional built-in
+DOS environment and configurable PC hardware emulation.
+
+## The CK-DOS 4.0 kernel and other operating systems
+
+The custom **CK-DOS 4.0 kernel** is designed for fast execution and low
+conventional-memory overhead. It includes DOS commands and tools built from
+the MIT-licensed MS-DOS 4.0 sources.
+
+A demonstrated 640 KB conventional-memory configuration leaves **about 616 KB**
+as the largest executable program block. Reducing graphics features can free
+additional memory: a demonstrated CGA configuration provides **736 KB** of
+conventional memory and **about 712 KB** as the largest executable block.
+These are examples; available memory depends on graphics settings, loaded
+tools and software requirements. Here, 1 KB means 1,024 bytes.
+
+You can also bypass the internal DOS kernel and boot your own installation
+media using the emulated CPU, BIOS, disks and other PC hardware. This allows
+installation of compatible versions of **Windows, OS/2 and other PC operating
+systems**. Supply your own application files, operating-system media and any
+required licenses. Compatibility depends on the particular version, software
+and hardware configuration.
 
 ## Support
 
@@ -47,12 +67,16 @@ you automatically. Afterwards, continue using Free or choose the permanent
 Pro purchase. Starting the free trial and buying Pro are separate actions;
 you do not need to buy Pro to activate the trial.
 
-### Does buying Pro make my Mac run at Pentium speed?
+### What performance can I expect?
+
+Pro expands CPU and peripheral compatibility; emulation speed depends on your
+Mac, software and current workload. Approximately **486-class speed** has been
+observed on an Apple M1 Mac. Newer Mac processors may achieve higher speeds,
+but performance for particular software is not guaranteed.
 
 The free performance check estimates what your current Mac and environment
-can sustain. Buying Pro does not make the Mac faster or guarantee physical
-Pentium performance. A warning, unfinished check or skipped check does not
-prevent you from buying Pro. Check your own programs during the trial as well.
+can sustain. A warning, unfinished check or skipped check does not prevent
+you from buying Pro. Test your own programs during the trial as well.
 
 ### How do I restore a purchase?
 
@@ -86,4 +110,4 @@ practices.
 
 Read the full [Privacy Policy](./privacy.html).
 
-_Last updated: October 13, 2026_
+_Last updated: October 14, 2026_
